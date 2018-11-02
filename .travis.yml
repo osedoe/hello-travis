@@ -1,1 +1,2 @@
-echo "Hola Travis";
+script:
+	echo "Hola Travis"
