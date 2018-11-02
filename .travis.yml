@@ -6,7 +6,9 @@ node_js:
 
 deploy:
   provider: heroku
-  app: hello-travis-ose
+  app:
+    master:
+      hello-travis-ose
   api_key:
     secure: a112a94f-bfce-471f-8d24-94484a2ec044
 
