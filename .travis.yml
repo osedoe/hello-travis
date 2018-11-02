@@ -2,5 +2,8 @@ language:
   node_js
 node_js:
   "11"
+  "10.13"
 script:
-  npm install 
+  npm run test
+deploy:
+  provider: heroku
