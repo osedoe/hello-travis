@@ -1,4 +1,4 @@
 language:
-  nodejs
+  node_js
 script:
   echo "Hola Travis"
