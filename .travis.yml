@@ -1,9 +1,8 @@
-language:
-  node_js
+language: node_js
 
 node_js:
-  "11"
-  "10.13"
+- "11"
+- "10.13"
 
 deploy:
   provider: heroku
@@ -11,4 +10,4 @@ deploy:
     secure: a112a94f-bfce-471f-8d24-94484a2ec044
 
 script:
-  npm run test
+- npm run test
