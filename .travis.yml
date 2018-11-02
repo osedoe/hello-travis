@@ -1,2 +1,4 @@
+language:
+  nodejs
 script:
-	- echo "Hola Travis"
+  echo "Hola Travis"
